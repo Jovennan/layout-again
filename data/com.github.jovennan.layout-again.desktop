@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Layout Again
+GenericName=Hello Layout App
+Comment=Proves that we can use Layout Vala and Gtk
+Categories=GTK;Utility;
+Exec=layout-again
+Icon=application-default-icon
+Terminal=false
+Type=Application
+X-GNOME-Gettext-Domain=layout-again
+Keywords=Hello;World;Example;
