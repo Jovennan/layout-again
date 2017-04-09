@@ -22,13 +22,13 @@ int main (string[] argv){
   Gtk.init (ref argv);
 
   Gtk.Window window = new Gtk.Window();
-  window.title = "hello layout";
+  window.title = _("hello layout");
   window.set_border_width(12);
   window.set_position (Gtk.WindowPosition.CENTER);
   window.set_default_size (350, 70);
   window.destroy.connect (Gtk.main_quit);
 
-  Gtk.Label label = new Gtk.Label("Hello Again World!");
+  Gtk.Label label = new Gtk.Label(_("Hello Again World!"));
 
   window.add(label);
   window.show_all();
